@@ -1,9 +1,0 @@
-<apex:page standardController="Contact" extensions="AddHubSpotController" recordSetVar="contacts"  action="{!getAddHubSpotContacts}" >
-    <div>
-        Importing Contacts from HubSpot...
-    </div>
-    <script>
-    window.history.back();
-    </script>
-    
-</apex:page>
